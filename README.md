@@ -6,7 +6,7 @@ For use with [FluxCD](https://fluxcd.io) to deploy [dashaun/dev.dashaun.service.
 
 ```bash
 flux create source git spring-cloud-gateway \
-  --url=https://github.com/dashaun-cloud/spring-cloud-gateway \
+  --url=https://github.com/dashaun-cloud/spring-cloud-gateway-kustomization \
   --branch=main \
   --interval=1m \
   --export > ./clusters/cluster00/spring-cloud-gateway-source.yaml
