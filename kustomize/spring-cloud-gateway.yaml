@@ -9,7 +9,7 @@ spec:
       annotations:
         autoscaling.knative.dev/initial-scale: "1"
         autoscaling.knative.dev/min-scale: "1"
-        autoscaling.knative.dev/max-scale: "2"
+        autoscaling.knative.dev/max-scale: "3"
     spec:
       containers:
         - image: dashaun/dev.dashaun.service.gateway:latest
